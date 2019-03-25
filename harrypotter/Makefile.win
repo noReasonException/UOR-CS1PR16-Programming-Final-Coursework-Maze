@@ -1,0 +1,88 @@
+# Project: HarryProject
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o Coordinate/Coordinate.o GameBoard/GameBoard.o Ghost/DummyGhost/DummyGhost.o Ghost/SmartGhost/SmartGhost.o GhostInfo/GhostInfo.o Map/Map.o ObjectInfo/ObjectInfo.o Player/Player.o PlayerInfo/PlayerInfo.o StupidPlayer/StupidPlayer.o DisplaySystem/LeaderBoard/LeaderBoard.o DisplaySystem/LogArea/LogArea.o DisplaySystem/Window/Window.o Utilities/FileReader.o Utilities/Record.o Ghost/SmartGhost/Graph/Graph.o Ghost/Ghost.o ManualPlayer/ManualPlayer.o DisplaySystem/InfoBoard/Info.o DisplaySystem/InfoBoard/InfoBoard.o
+LINKOBJ  = main.o Coordinate/Coordinate.o GameBoard/GameBoard.o Ghost/DummyGhost/DummyGhost.o Ghost/SmartGhost/SmartGhost.o GhostInfo/GhostInfo.o Map/Map.o ObjectInfo/ObjectInfo.o Player/Player.o PlayerInfo/PlayerInfo.o StupidPlayer/StupidPlayer.o DisplaySystem/LeaderBoard/LeaderBoard.o DisplaySystem/LogArea/LogArea.o DisplaySystem/Window/Window.o Utilities/FileReader.o Utilities/Record.o Ghost/SmartGhost/Graph/Graph.o Ghost/Ghost.o ManualPlayer/ManualPlayer.o DisplaySystem/InfoBoard/Info.o DisplaySystem/InfoBoard/InfoBoard.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = HarryProject.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.cpp
+	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
+Coordinate/Coordinate.o: Coordinate/Coordinate.cpp
+	$(CPP) -c Coordinate/Coordinate.cpp -o Coordinate/Coordinate.o $(CXXFLAGS)
+
+GameBoard/GameBoard.o: GameBoard/GameBoard.cpp
+	$(CPP) -c GameBoard/GameBoard.cpp -o GameBoard/GameBoard.o $(CXXFLAGS)
+
+Ghost/DummyGhost/DummyGhost.o: Ghost/DummyGhost/DummyGhost.cpp
+	$(CPP) -c Ghost/DummyGhost/DummyGhost.cpp -o Ghost/DummyGhost/DummyGhost.o $(CXXFLAGS)
+
+Ghost/SmartGhost/SmartGhost.o: Ghost/SmartGhost/SmartGhost.cpp
+	$(CPP) -c Ghost/SmartGhost/SmartGhost.cpp -o Ghost/SmartGhost/SmartGhost.o $(CXXFLAGS)
+
+GhostInfo/GhostInfo.o: GhostInfo/GhostInfo.cpp
+	$(CPP) -c GhostInfo/GhostInfo.cpp -o GhostInfo/GhostInfo.o $(CXXFLAGS)
+
+Map/Map.o: Map/Map.cpp
+	$(CPP) -c Map/Map.cpp -o Map/Map.o $(CXXFLAGS)
+
+ObjectInfo/ObjectInfo.o: ObjectInfo/ObjectInfo.cpp
+	$(CPP) -c ObjectInfo/ObjectInfo.cpp -o ObjectInfo/ObjectInfo.o $(CXXFLAGS)
+
+Player/Player.o: Player/Player.cpp
+	$(CPP) -c Player/Player.cpp -o Player/Player.o $(CXXFLAGS)
+
+PlayerInfo/PlayerInfo.o: PlayerInfo/PlayerInfo.cpp
+	$(CPP) -c PlayerInfo/PlayerInfo.cpp -o PlayerInfo/PlayerInfo.o $(CXXFLAGS)
+
+StupidPlayer/StupidPlayer.o: StupidPlayer/StupidPlayer.cpp
+	$(CPP) -c StupidPlayer/StupidPlayer.cpp -o StupidPlayer/StupidPlayer.o $(CXXFLAGS)
+
+DisplaySystem/LeaderBoard/LeaderBoard.o: DisplaySystem/LeaderBoard/LeaderBoard.cpp
+	$(CPP) -c DisplaySystem/LeaderBoard/LeaderBoard.cpp -o DisplaySystem/LeaderBoard/LeaderBoard.o $(CXXFLAGS)
+
+DisplaySystem/LogArea/LogArea.o: DisplaySystem/LogArea/LogArea.cpp
+	$(CPP) -c DisplaySystem/LogArea/LogArea.cpp -o DisplaySystem/LogArea/LogArea.o $(CXXFLAGS)
+
+DisplaySystem/Window/Window.o: DisplaySystem/Window/Window.cpp
+	$(CPP) -c DisplaySystem/Window/Window.cpp -o DisplaySystem/Window/Window.o $(CXXFLAGS)
+
+Utilities/FileReader.o: Utilities/FileReader.cpp
+	$(CPP) -c Utilities/FileReader.cpp -o Utilities/FileReader.o $(CXXFLAGS)
+
+Utilities/Record.o: Utilities/Record.cpp
+	$(CPP) -c Utilities/Record.cpp -o Utilities/Record.o $(CXXFLAGS)
+
+Ghost/SmartGhost/Graph/Graph.o: Ghost/SmartGhost/Graph/Graph.cpp
+	$(CPP) -c Ghost/SmartGhost/Graph/Graph.cpp -o Ghost/SmartGhost/Graph/Graph.o $(CXXFLAGS)
+
+Ghost/Ghost.o: Ghost/Ghost.cpp
+	$(CPP) -c Ghost/Ghost.cpp -o Ghost/Ghost.o $(CXXFLAGS)
+
+ManualPlayer/ManualPlayer.o: ManualPlayer/ManualPlayer.cpp
+	$(CPP) -c ManualPlayer/ManualPlayer.cpp -o ManualPlayer/ManualPlayer.o $(CXXFLAGS)
+
+DisplaySystem/InfoBoard/Info.o: DisplaySystem/InfoBoard/Info.cpp
+	$(CPP) -c DisplaySystem/InfoBoard/Info.cpp -o DisplaySystem/InfoBoard/Info.o $(CXXFLAGS)
+
+DisplaySystem/InfoBoard/InfoBoard.o: DisplaySystem/InfoBoard/InfoBoard.cpp
+	$(CPP) -c DisplaySystem/InfoBoard/InfoBoard.cpp -o DisplaySystem/InfoBoard/InfoBoard.o $(CXXFLAGS)

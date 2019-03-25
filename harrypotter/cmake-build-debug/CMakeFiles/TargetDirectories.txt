@@ -1,0 +1,3 @@
+C:/Users/StefStef/Desktop/harrypotter/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/StefStef/Desktop/harrypotter/cmake-build-debug/CMakeFiles/Ghost.dir
+C:/Users/StefStef/Desktop/harrypotter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
