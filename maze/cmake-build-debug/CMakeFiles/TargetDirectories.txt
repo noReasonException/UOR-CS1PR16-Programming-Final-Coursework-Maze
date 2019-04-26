@@ -1,0 +1,3 @@
+/home/stefan/Desktop/maze/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/stefan/Desktop/maze/cmake-build-debug/CMakeFiles/maze.dir
+/home/stefan/Desktop/maze/cmake-build-debug/CMakeFiles/edit_cache.dir

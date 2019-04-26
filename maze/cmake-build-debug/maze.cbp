@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="maze"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/stefan/Desktop/maze/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/stefan/Desktop/maze/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maze">
+				<Option output="/home/stefan/Desktop/maze/cmake-build-debug/maze" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stefan/Desktop/maze/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 maze"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="maze/fast">
+				<Option output="/home/stefan/Desktop/maze/cmake-build-debug/maze" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/stefan/Desktop/maze/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 maze/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/stefan/Desktop/maze/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/stefan/Desktop/maze/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/stefan/Desktop/maze/App/GraphicsModule/Graphics.cpp">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/GraphicsModule/Graphics.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/GraphicsModule/SFMLGraphics/SFMLGraphics.cpp">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/GraphicsModule/SFMLGraphics/SFMLGraphics.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/GraphicsModule/SFMLGraphics/Utills.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Logger/Logger.cpp">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Logger/Logger.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/MainLoop/MainLoop.cpp">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/MainLoop/MainLoop.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Object/DynamicObject/ActionObject/Action.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Object/DynamicObject/DynamicObject.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Object/DynamicObject/Objects/Ghost.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Object/DynamicObject/Objects/MovingWall.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Object/DynamicObject/Objects/Player/DeriveablePlayer.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Object/DynamicObject/Objects/Player/Player.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Object/Object.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Object/StaticObject/Objects/Price.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Object/StaticObject/Objects/Wall.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/Object/StaticObject/StaticObject.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/ProjectFactory/Factory.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/ProjectFactory/ObjectFactory.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/RawMap/MapException.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/RawMap/Notification.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/RawMap/RawMap.cpp">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/RawMap/RawMap.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/RawMap/Utils.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/RuleEngine/GenericRuleException.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/RuleEngine/Rule.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/RuleEngine/RuleEngine.cpp">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/App/RuleEngine/RuleEngine.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/AbstractTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/GraphicsModuleTests/NotificationFunctorNotNullTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/MainLoopTests/AggressiveInitializationTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/MainLoopTests/LoadObjectsTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/MainLoopTests/MainLoopTests.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/ObjectTests/GetTypeTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/ObjectTests/IsVisibleTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/ObjectTests/StandStillActionObjectTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/RawMapTests/ApplyActionObjectTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/RawMapTests/GetPointTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/RawMapTests/GettersTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/RawMapTests/OverridePointTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/RuleEngineTests/AvoidColissionRuleTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/RuleEngineTests/AvoidLevelLimitsRuleTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/RuleEngineTests/AvoidMoveOverOneBlockAwayRuleTest.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/Tests/TestModule.h">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/main.cpp">
+			<Option target="maze"/>
+		</Unit>
+		<Unit filename="/home/stefan/Desktop/maze/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
